@@ -1,0 +1,149 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.header {
+    background-color: #090E1A;
+    color: #F16896;
+    padding: 20px;
+    text-align: center;
+}
+.header h1{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.header li{
+    display: inline;
+    margin: 0 10px;
+}
+.header li a{
+    color: #F16896;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.header li a:hover{
+    color: #f6b5cb; 
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #090E1A;
+    color: #F16896;
+    border-radius: 8px;
+}
+.container h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.container p{
+    text-align: center;
+    line-height: 1.6;
+    padding: 10px;
+}
+#trailer-p{
+    text-align: center;
+}
+#trailer-p a{
+    color: #F16896;
+}
+.espaco{
+    margin-left: 5px;
+}
+.cards{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #090E1A;
+    color: #F16896;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.cards h2{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.cards card{
+    flex: 1 1 300px;
+    background-color: #090E1A;
+    color: #F16896;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    transition: ease 0.3s;
+}
+#bob{
+    width: 400px;
+}
+.cards card:hover{
+    size: 1.05;
+    transform: scale(1.05);
+    background-color: #F16896;
+    color: #090E1A;
+}
+.galeria_imagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+.galeria_item {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.galeria_item:hover {
+  transform: scale(1.05);
+}
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+ ul {
+  padding: 30px;
+ }
+ form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+ }
+ form button {
+  background-color: #F16896;
+  color: #090E1A;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  transition: scale 0.3s ease;
+ }
+ form button:hover {
+    background-color: #f6b5cb;
+    scale: 1.05;
+}
+footer {
+    background-color: #090E1A;
+    color: #F16896;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+input{
+    padding:10px;
+    border-radius: 8px;
+}
+textarea{
+    padding:10px;
+    border-radius: 8px;
+}
